@@ -1,0 +1,16 @@
+https://www2.lunapic.com/editor/     FOR TRANSPARENT BACKGROUND
+
+1- BOOTSTRAP 4 CAROUSEL
+----------------------
+https://www.jqueryscript.net/slider/responsive-bootstrap-carousel-multiple-items.html
+https://bootsnipp.com/snippets/dl6ez
+https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
+
+
+
+2- FOR SLICK (you always need jquery for slick plugin)
+after applying plugin you have to customize it according to your need
+-----------------------------------------------------------
+https://kenwheeler.github.io/slick/#go-get-it
+https://github.com/kenwheeler/slick/
+https://codepen.io/vilcu/pen/ZQwdGQ

@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*-------------------- HEADER -------------------- */
+/* TOP BAR */
+.for-top-bar{
+    background-color: rgb(235, 235, 235);
+}
+.for-top-bar a{
+    text-decoration: none;
+    color: black;
+}
+.for-top-bar a:hover{
+    color: rgb(255, 102, 46);
+}
+
+/* NAVBAR */
+.logo-size{
+    height: 50px;
+    width: 110px;
+}
+.my-link{
+    
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.nav-link::after{
+    content: "";
+    display: block;
+    width: 0px;
+    background-color: rgb(255, 102, 46);
+    height: 3px;
+    transition: 0.3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.btn-outline{
+    color:whitesmoke;
+    background-color: rgb(255, 102, 46);
+    font-weight: 800;
+}
+
+/* FOR DYNAMIC TEXT & CAROUSEL */
+.bg-for-dynamic-text{
+    background-color: rgb(28, 23, 44);
+    color: whitesmoke;
+    height: 500px;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.d-text-position{
+    width: 80%;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.for-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 10px;
+}
+.for-d-text-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(255, 102, 46) ;
+}
+.btn-extra{
+    border: none;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.for-color{
+    color: rgb(187, 182, 182);
+}
+
+ /* CLIENT LOGO SHOWCASE  */
+ .portfolio_slider {
+     max-width: 1200px;
+ }
+ .portfolio_slider {
+     flex: 1 1 0;
+ }
+ .inner {
+     padding: 6px;
+     
+ }
+ .inner img {
+     width: 100%;
+     height: 170px;
+     transition: 0.3s;
+ }
+ .inner img:hover {
+     transform:scale(1.2);
+ }
+ .next{
+     position: absolute;
+     right: 0px ;
+     bottom: 90px;
+     right: -10px;
+     z-index: 1;
+     color: gray;
+ }
+ .previous{
+     position: absolute;
+     bottom: 90px;
+     left: -13px;
+     z-index: 1;
+     color: gray;
+ }
+ .for-main-heading{
+     border-bottom: 3px solid;
+     border-image: linear-gradient(90deg, rgba(255,102,46,1) 50%, rgba(28,23,44,1) 50%)2;
+ }
+/*-------------------- HEADER -------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c1{
+    background-color: chartreuse;
+}
+.c2{
+    background-color: chocolate;
+}
+.c3{
+    background-color: cornflowerblue;
+}
