@@ -75,11 +75,12 @@
 }
 .btn-extra{
     border: none;
-    padding: 10px;
+    padding: 10px 25px;
     margin: 10px 0px;
+    cursor: pointer;
 }
 .for-color{
-    color: rgb(187, 182, 182);
+    color: rgb(151, 146, 146);
 }
 
  /* CLIENT LOGO SHOWCASE  */
@@ -122,10 +123,38 @@
  }
 /*-------------------- HEADER -------------------- */
 
+/*-------------------- SECTION -------------------- */
+/* SECTION 1 */
+.section1{
+    height: 80vh;
+    margin-top: 25px;
+}
+.section1 img{
+    height: 350px;
+}
+.for-inner-div1{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(94, 227, 250);
+    top: 20px;
+    left: -10px;
+    z-index: -20;
+}
+.for-inner-div2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(250, 118, 70);
+    bottom: 15px;
+    left: 305px;
+    z-index: -20;
+}
+.for-para-color{
+    color: rgb(104, 104, 104);
+}
 
-
-
-
+/*-------------------- SECTION -------------------- */
 
 
 
