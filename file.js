@@ -58,3 +58,5 @@ $('.gallery-responsive').slick({
 
     ]
 });
+
+

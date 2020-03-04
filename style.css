@@ -126,7 +126,7 @@
 /*-------------------- SECTION -------------------- */
 /* SECTION 1 */
 .section1{
-    height: 80vh;
+    height: auto;
     margin-top: 25px;
 }
 .section1 img{
@@ -154,7 +154,18 @@
 .for-para-color{
     color: rgb(104, 104, 104);
 }
-
+/* SECTION 2 */
+.section2{
+    height: 600px;
+    margin-top: 25px;
+    background-image: url("section2\ bg-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section2 .fa {
+    font-size: 80px;
+    color: rgb(27, 105, 119)
+}
 /*-------------------- SECTION -------------------- */
 
 
