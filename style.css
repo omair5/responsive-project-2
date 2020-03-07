@@ -166,6 +166,27 @@
     font-size: 80px;
     color: rgb(27, 105, 119)
 }
+/* section 3 */
+.section3{
+    height: 400px;
+    background-image: url('section3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* section 4 */
+.for-our-team{
+    border-bottom: 3px solid rgb(250, 118, 70);
+}
+.section4{
+    padding-top: 25px;
+    background-color: rgb(28, 23, 44);
+    color: whitesmoke;
+}
+.section4 img{
+    height: 200px;
+    width: 200px;
+}
 /*-------------------- SECTION -------------------- */
 
 
