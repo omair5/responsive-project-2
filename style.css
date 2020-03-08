@@ -164,7 +164,7 @@
 }
 .section2 .fa {
     font-size: 80px;
-    color: rgb(27, 105, 119)
+    color: rgb(27, 105, 119);
 }
 /* section 3 */
 .section3{
@@ -187,6 +187,31 @@
     height: 200px;
     width: 200px;
 }
+/* section 5 */
+.section5{
+    padding-top: 25px;
+}
+.section5 img{
+    height: 250px;
+    width: 180px;
+    z-index: 10;
+    position: relative;
+}
+.for-review-box{
+    width: 180px;
+    height: 150px;
+    background-color:rgb(27, 105, 119);
+    position: absolute;
+    left: 80px;
+    top: -20px;
+}
+.for-quotes{
+    font-size: 26px;
+}
+.move{
+    left: -80px;
+}
+
 /*-------------------- SECTION -------------------- */
 
 
