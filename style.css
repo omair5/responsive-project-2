@@ -169,10 +169,19 @@
 /* section 3 */
 .section3{
     height: 400px;
-    background-image: url('section3.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+}
+.section3 .fa{
+    font-size: 100px;
+    background: -webkit-linear-gradient(rgb(94, 227, 250), rgb(27, 105, 119));
+    background-clip: text;
+    color: transparent;
+    padding-top: 10px;
+}
+.counter{
+    font-size: 40px;
+    padding-top: 10px;
+    color: rgb(28, 23, 44);
+
 }
 /* section 4 */
 .for-our-team{
@@ -195,7 +204,6 @@
     height: 250px;
     width: 180px;
     z-index: 10;
-    position: relative;
 }
 .for-review-box{
     width: 180px;
@@ -211,7 +219,10 @@
 .move{
     left: -80px;
 }
-
+/* SECTION 6 */
+.section6{
+    background-color: rgb(28, 23, 44);
+}
 /*-------------------- SECTION -------------------- */
 
 

@@ -60,3 +60,15 @@ $('.gallery-responsive').slick({
 });
 
 
+
+// $('.counter').counterUp({
+//     delay: 10,
+//     time: 1000
+// });
+
+$('.counter').countUp(
+    {
+        delay:100,
+        time:1500
+    }
+);
