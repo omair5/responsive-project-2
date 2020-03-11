@@ -25,6 +25,7 @@
 
 <body>
     <!------------------------------------------------- HEADER ----------------------------------------------------------->
+    <button onclick="topFunction()" id="myBtn"><i class="fa fa-arrow-up"></i></button>
     <div class="header">
         <!-- FOR TOP BAR -->
         <div class="container-fluid for-top-bar">
@@ -42,15 +43,30 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto mr-5">
+                <ul class="navbar-nav ml-auto mr-5 text-uppercase">
                     <li class="nav-item">
-                        <a class="nav-link active my-link" href="#">Home </a>
+                        <a class="nav-link active my-link" href="#home">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active my-link" href="#">Features</a>
+                        <a class="nav-link active my-link" href="#features">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active my-link" href="#">Pricing</a>
+                        <a class="nav-link active my-link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active my-link" href="#Process">Process</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active my-link" href="#Team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active my-link" href="#Review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active my-link" href="#Gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active my-link" href="#Help">Help</a>
                     </li>
                 </ul>
                 <button class="btn btn-outline my-2 my-sm-0 mr-3" type="submit">SCHEDULE YOUR CLASS</button>
@@ -132,7 +148,7 @@
 
     <!------------------------------------------------- SECTION ----------------------------------------------------------->
     <!-- SECTION 1 -->
-    <section class="section1">
+    <section class="section1" id="features">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12 m-auto py-5">
@@ -162,7 +178,36 @@
         </div>
     </section>
     <!-- SECTION 2 -->
-    <section class="section2">
+    <section class="section3" id="Projects">
+        <div class="container py-5">
+            <h1 class="font-weight-bold text-center"><span class="for-main-heading">PROJECTS COMPLETED</span></h1>
+            <div class="row text-center font-weight-bold pt-5">
+                <div class="col-md-3 m-auto font">
+                    <h4 class="font-weight-bold">WEB DEVELOPMENT</h4>
+                    <i class="fa fa-laptop"></i>
+                    <p class="counter">40</p>
+                </div>
+                <div class="col-md-3 m-auto">
+                    <h4 class="font-weight-bold">WEB DESIGNING</h4>
+                    <i class="fa fa-pencil"></i>
+                    <p class="counter">37</p>
+                </div>
+                <div class="col-md-3 m-auto">
+                    <h4 class="font-weight-bold">RESPONSIVE DESIGN</h4>
+                    <i class="fa fa-mobile"></i>
+                    <p class="counter">55</p>
+                </div>
+                <div class="col-md-3 m-auto">
+                    <h4 class="font-weight-bold">MARKETING</h4>
+                    <i class="fa fa-rocket"></i>
+                    <p class="counter">60</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="section2" id="Process">
         <div class="container py-5">
             <h1 class="font-weight-bold text-center"><span class="for-main-heading">HOW IT WORKS</span></h1>
             <div class="row py-5 text-center mt-5">
@@ -190,36 +235,8 @@
             </div>
         </div>
     </section>
-    <!-- SECTION 3 -->
-    <section class="section3">
-        <div class="container py-5">
-            <h1 class="font-weight-bold text-center"><span class="for-main-heading">PROJECTS COMPLETED</span></h1>
-            <div class="row text-center font-weight-bold pt-5">
-                <div class="col-md-3 m-auto font">
-                    <h4 class="font-weight-bold">WEB DEVELOPMENT</h4>
-                    <i class="fa fa-laptop"></i>
-                    <p class="counter">40</p>
-                </div>
-                <div class="col-md-3 m-auto">
-                    <h4 class="font-weight-bold">WEB DESIGNING</h4>
-                    <i class="fa fa-pencil"></i>
-                    <p class="counter">37</p>
-                </div>
-                <div class="col-md-3 m-auto">
-                    <h4 class="font-weight-bold">RESPONSIVE DESIGN</h4>
-                    <i class="fa fa-mobile"></i>
-                    <p class="counter">55</p>
-                </div>
-                <div class="col-md-3 m-auto">
-                    <h4 class="font-weight-bold">MARKETING</h4>
-                    <i class="fa fa-rocket"></i>
-                    <p class="counter">60</p>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--SECTION 4  -->
-    <section class="section4">
+    <section class="section4" id="Team">
         <div class="container pb-5">
             <h1 class="font-weight-bold text-center"><span class="for-our-team">OUR TEAM</span></h1>
             <div class="row text-center pt-5">
@@ -248,7 +265,7 @@
         </div>
     </section>
     <!-- SECTION 5 -->
-    <section class="section5">
+    <section class="section5" id="Review">
         <div class="container pb-5">
             <h1 class="font-weight-bold text-center"><span class="for-main-heading">CLIENT REVIEW</span></h1>
             <div class="row align-item-center pt-5">
@@ -268,7 +285,7 @@
         </div>
     </section>
     <!-- SECTION 6 -->
-    <section class="section6">
+    <section class="section6" id="Gallery">
         <div class="container py-5">
             <div class="row d-flex align-items-start">
                 <div class="col-md-7 m-auto">
@@ -283,7 +300,8 @@
                 </div>
                 <div class="col-md-5 m-md-none pt-5 mt-5 text-white">
                     <h1 class="font-weight-bold text-white">PROVE SPEAK RESULT FROM TOP VIEW.</h1>
-                    <p class="pt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse assumenda adipisci
+                    <p class="pt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse assumenda
+                        adipisci
                         quasi animieaque libero, eligendi autem totam tempore deleniti est odit.</p>
                     <button class="btn-outline btn-extra mt-5">GET STARTED</button>
                 </div>
@@ -292,13 +310,76 @@
     </section>
     <!------------------------------------------------- SECTION ----------------------------------------------------------->
 
-
-
-
-
-
-
-
+    <!------------------------------------------------- FOOTER ----------------------------------------------------------->
+    <footer class="for-footer" id="Help">
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <!-- column 1 -->
+                <div class="col-lg-2 col-sm-4 m-sm-auto m-md-0 text-center">
+                    <h4 class="font-weight-bold text-center pb-2"><span class="for-main-heading">PANACLOUD</span></h4>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">HDReal</a></p>
+                    <p><a href="#">Join The Team</a></p>
+                    <p><a href="#">Gallery</a></p>
+                </div>
+                <!-- column 2 -->
+                <div class="col-lg-3 col-sm-4 m-sm-auto m-md-0 text-center">
+                    <h4 class="font-weight-bold text-center pb-2"><span class="for-main-heading">FEATURES</span></h4>
+                    <p><a href="#">Cloud Computing</a></p>
+                    <p><a href="#">Artificial Intelligence</a></p>
+                    <p><a href="#">BlockChain</a></p>
+                    <p><a href="#">Internet Of Things</a></p>
+                </div>
+                <!-- column 3 -->
+                <div class="col-lg-2 col-sm-4 m-sm-auto m-md-0 text-center">
+                    <h4 class="font-weight-bold text-center pb-2"><span class="for-main-heading">LEARN</span></h4>
+                    <p><a href="#">Testimonials</a></p>
+                    <p><a href="#">Blogs</a></p>
+                    <p><a href="#">Resources</a></p>
+                </div>
+                <!-- column 4 -->
+                <div class="col-lg-5 col-sm-12 m-sm-auto m-md-0">
+                    <p class="font-weight-bold">Sign up for our weekly Newsletter!</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter Your Email" id="mail"
+                                name="email" required>
+                            <div class="input-group-append">
+                                <span class="input-group-text for-append pl-5">SIGN UP!</span>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="pt-4 font-weight-bold">FROM THE BLOG</p>
+                    <div class="row">
+                        <div class="col-md-4 m-auto">
+                            <a href="#"><img src="section1.jpg" class="img-fluid">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </a>
+                        </div>
+                        <div class="col-md-4 m-auto">
+                            <a href="#"><img src="gallery.jpg" class="img-fluid">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </a>
+                        </div>
+                        <div class="col-md-4 m-auto">
+                            <a href="#"><img src="3.jpg" class="img-fluid">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="text-center policy-bar">
+                <span>Privacy Policy</span>
+                <span>Terms Conditions</span>
+                <span>Service Area Map</span>
+            </div>
+        </div>
+    </footer>
+    <!------------------------------------------------- FOOTER ----------------------------------------------------------->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
