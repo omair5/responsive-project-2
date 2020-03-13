@@ -275,18 +275,106 @@ hr{
 }
 /*-------------------- FOOTER -------------------- */
 
+/*-------------------- FOR RESPONSIVE DESIGN -------------------- */
 
-
-
-
-
-
-.c1{
-    background-color: chartreuse;
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .for-font{
+        font-size: 30px;
+    }
+    .for-d-text-font{
+        font-size: 30px;
+    }
+    .section1 img{
+        height: 250px;
+        width: 400px;
+    }
+    .for-inner-div2{
+        left: 235px;
+    }
+    .section3{
+        height: auto;
+    }
+    .section2{
+        height: auto;
+    }
+    .for-review-box{
+        left: 110px;
+    }
+    .move{
+        left: 0px;
+        text-align: center;
+    }
+    .section6 img{
+        width: 100%;
+    }
+    .for-footer img{
+       width: 50%;
+    }
 }
-.c2{
-    background-color: chocolate;
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section3{
+        height: auto;
+    }
+    .section2{
+        height: auto;
+    }
+    .for-review-box{
+        left: 160px;
+    }
+    .move{
+        left: 0px;
+        text-align: center;
+    }
+    .section6 img{
+        width: 100%;
+    }
+    .for-footer img{
+       width: 50%;
+    }
 }
-.c3{
-    background-color: cornflowerblue;
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .for-font{
+        font-size: 30px;
+    }
+    .for-d-text-font{
+        font-size: 30px;
+    }
+    .section1 img{
+        height: 230px;
+        width: 400px;
+    }
+    .for-inner-div2{
+        left: 170px;
+    }
+    .for-review-box{
+        left: 10px;
+    }
+    .move{
+        left: 0px;
+    }
+    .section6 img{
+        width: 100%;
+    }
 }
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .for-font{
+        font-size: 30px;
+    }
+    .for-d-text-font{
+        font-size: 30px;
+    }
+    .for-inner-div2{
+        left: 290px;
+    }
+    .for-review-box{
+        left: 50px;
+    }
+    .section6 img{
+        width: 100%;
+    }
+}
+/*-------------------- FOR RESPONSIVE DESIGN -------------------- */
