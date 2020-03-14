@@ -290,8 +290,7 @@ hr{
         width: 400px;
     }
     .for-inner-div2{
-       height: 0;
-       width: 0;
+       right:0px
     }
     .section3{
         height: auto;
@@ -393,6 +392,9 @@ hr{
     }
     .for-d-text-font{
         font-size: 35px;
+    }
+    .for-inner-div2{
+        right: 0px;
     }
 }
 /*-------------------- FOR RESPONSIVE DESIGN -------------------- */
