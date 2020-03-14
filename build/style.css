@@ -195,7 +195,7 @@ html{
 .section3 .fa{
     font-size: 100px;
     background: -webkit-linear-gradient(rgb(94, 227, 250), rgb(27, 105, 119));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     padding-top: 10px;
 }
